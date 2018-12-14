@@ -1,0 +1,61 @@
+/*Login Model START */
+	#lang_icon{
+		margin-right:0;
+	}
+	
+	label {
+		font-weight:5;
+	}
+	
+	.modal-dialog {
+		width: 350px;
+	}
+	
+	.modal-content{
+		width:400px;
+	}
+
+/*Login Model END */
+
+
+
+/* Register Model Start*/
+
+	#lang_icon{
+		margin-right:0;
+	}
+	
+	.modal-content{
+		width:550px;
+	}
+	
+	.modal-header .close{
+		margin-top: -40px;
+	}
+	
+	label {
+		font-weight:5;
+		float:left;
+		color:#337ab7;
+	}
+	
+	input[type='text']{
+		float:right;
+	}
+	
+	.modal-dialog {
+		width: 350px;
+	}
+	
+	.row{
+		margin-bottom:10px;
+	}
+	
+	.mendatory{
+		color:red;
+	}
+	
+	textarea {
+		resize: none;
+	}
+/* Register Model End*/
