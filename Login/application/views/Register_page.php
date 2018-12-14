@@ -264,7 +264,7 @@
 
 		window.fbAsyncInit = function() {
 		    FB.init({
-		      appId      : '2222777051312688', 
+		      appId      : '', 
 		      cookie     : true,  
 		      xfbml      : true,  
 		      version    : 'v3.2'
@@ -554,7 +554,7 @@ function HandleGoogleApiLibrary() {
 			// clientId & scope is provided => automatically initializes auth2 library
 			gapi.client.init({
 		    	//apiKey: 'xxxxxxxxxxxxxxxxxxxxxx',
-		    	clientId: '202712542853-9frsqfk8d8t0m12oud7jv854ardenl2v.apps.googleusercontent.com',
+		    	clientId: '',
 		    	scope: 'https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/plus.me'
 			}).then(
 				// On success
