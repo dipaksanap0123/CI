@@ -1,0 +1,386 @@
+/*Main Page START*/
+	*{
+		font-family:BrandonText,railway;
+	}
+	
+	body{
+		background:#f3f3f3;
+	}
+	.sidenav {
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+	text-decoration:none;
+	border:2px solid #ddd;
+	border-radius:4px;
+	background-color:#fff;
+}
+
+		::-webkit-scrollbar {
+				width: 2px;
+				height:6px;
+				margin-left:-20px;
+			}
+			
+			::-webkit-scrollbar-track {
+				box-shadow: inset 0 0 5px #fff; 
+				border-radius: 2px;
+			}
+
+			::-webkit-scrollbar-thumb {
+				background: #f2f2f2; 
+				border-radius: 2px;
+				height:10px;
+				
+			}
+
+			
+			#home_content{
+				position:absolute;
+				border:1px solid #ddd;
+				height:570px;
+				padding:10px;
+				width:97%;
+				background:#f8f9fa;
+				top:160px;
+				margin-bottom:20px;
+				overflow:auto;
+			}
+			
+			.orderBy{
+				width:20%;
+				float:right;
+				margin-top:-35px;	
+				z-index:1000;
+			}
+			
+/*Main Page ENDS*/
+
+
+/*MENU START*/
+	#main_menu{
+		min-height: 65px;
+		position: fixed;
+		left: 0;
+		right: 0;
+		z-index:1000;
+	}		
+.navbar a{
+	color:#fff;
+}		
+
+.navbar-header{
+	margin-top:8px;
+	background: url('../Images/books-512.png') no-repeat;
+	background-position:center;
+	background-size:cover;
+}	
+
+
+.navbar-brand{
+	padding: 22px 55px;
+	height:auto;
+}
+
+
+	
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+	background: url('../Images/search3.png') no-repeat;
+	background-position:center;
+	background-size:16px 16px;
+	padding: 8px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	background: url('../images/searchFocus.png') no-repeat;
+	background-position:6px 8px;
+	background-size:15px 15px;
+	width: 35px;
+	background-color: #fff;
+	border-color: #66CC75;
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/* Demo 2 */
+
+#search_option{
+    height: 37px;
+}
+#search_option input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+#search_option input[type=search]:hover {
+	
+}
+#search_option input[type=search]:focus {
+	width: 280px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+	border-radius:4px;
+}
+	#demo2{
+		border:0;
+	}
+}
+#search_option input:-moz-placeholder {
+	color: transparent;
+}
+#search_option input::-webkit-input-placeholder {
+	color: transparent;
+}
+
+.user a{
+    
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.operations::after{
+	content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 20%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.dropdown-toggle::after {
+	color:#fff;
+}
+
+.language_icon{
+	width:30px;
+	height:30px;
+	margin-right:10px;
+	margin-left: -25px;
+    border-radius: 50%;
+    padding: 4px;
+}
+.dropdown-menu>li>a{
+	padding:3px 45px;
+}
+
+.navbar-nav>li>a{
+	padding: 6px 6px 6px -1px; text-decoration: none; font-size: 20px; color: #818181; display: block; transition: 0.3s;color:#fff;
+}
+
+.navbar-nav>li>a:hover{
+	border-radius:6px;
+	background:#337ab7;
+	color:red;
+}
+
+.navbar-right{
+	margin-right:0;
+	margin-top:10px;
+}
+
+.navbar-right .dropdown-menu{
+	top:50px;
+}
+
+.navbar-right .dropdown-menu::after{
+	content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 88%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+/*MENU ENDS*/
+
+
+
+/*HOME START*/
+	.owl-item cloned{
+		width:0;
+	}
+	.one{
+		border:1px solid #ddd;
+		height:300px;
+		margin-top:-160px;
+		background:#fafafa;
+		border-radius:5px;
+	}
+	#lang_icon{
+		margin-right:0;
+	}
+	
+	label {
+		/* font-weight:5; */
+	}
+/*HOME END*/
+
+
+/*OWL Slider START*/
+			.owl-carousel{
+				z-index:800;
+				border:0;
+				width: 600px;
+				left: 264px;
+				background:#fafafa;
+				height:70px;
+			}
+			
+			
+			h4{
+				text-align: center;
+				color: #000;
+				padding:5px;
+				margin-left:-70%;
+			}
+			
+			h6{
+				color:#337ab7;
+			}
+			
+			.owl-item{
+				width:80px;
+			}
+			
+			.owl-carousel .owl-nav.disabled {
+				display:none;
+			}
+			
+			.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+				display:none;
+			}
+			
+			
+			.owl-theme .owl-dots .owl-dot span{
+				display:none;
+			}
+			.item {
+				margin-top:10px;
+				margin-bottom:-11px;
+			}
+			
+			.navbar-fixed-top {
+				top: 100px;
+				border-width: 0 0 1px;
+				left: 0px;
+				z-index:1;
+			}
+			
+/*OWL Slider END*/
+
+
+
+
+
+/* Models */
+
+
+.model{
+	top:230px;
+}
+
+.row_for_input{
+	margin-bottom: 15px;
+}
+
+
+.col-form-label{
+	color:#007bff!important;
+	margin-left:50px;
+}
+
+.mendatory{
+	color:red;
+}
+
+
+/*Extra classes*/
+	.font_weight_normal{
+		font-weight:normal;
+	}
+/*Extra classes*/
+
+
+
+
+/*Footer CSS START*/
+	.footer {
+				position: fixed;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				background-color: #f8f9fa;
+				color: #000;
+				height:80px;
+				text-align: center;
+				border:1px solid #ddd;
+				z-index:600;
+			}
+			
+			.main_footer{
+				margin-top:30px;
+				color:#337ab7;
+			}
+			
+			.social{
+				margin-top:-20px;
+				margin-right:-60px;
+				float:right;
+			}
+			
+			.social li{
+				display:inline;
+				margin-right:6px;
+			}
+/*Footer CSS ENDS*/
